@@ -1,11 +1,11 @@
-About r-ggghost
-===============
+About r-ggghost-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggghost-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jonocarroll/ggghost
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggghost-feedstock/blob/main/LICENSE.txt)
 
 Summary: Creates a reproducible 'ggplot2' object by storing the data and calls.
 
