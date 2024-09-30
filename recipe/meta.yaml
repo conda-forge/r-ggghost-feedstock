@@ -1,6 +1,5 @@
 {% set version = '0.2.1' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-ggghost
@@ -13,8 +12,7 @@ source:
   sha256: db42f24d1a35b695cc50a00eb7a9d63e6001dec4de2832fff6c6b5de9b927a4f
 
 build:
-  merge_build_host: True  # [win]
-  number: 3
+  number: 4
   noarch: generic
   rpaths:
     - lib/R/lib/
