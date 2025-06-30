@@ -1,4 +1,4 @@
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggghost_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggghost/ggghost_{{ version }}.tar.gz
-  sha256: 666ead8ef679cf461c1d960470c711576435de8da2fa86fd32ced137d7273322
+  sha256: ff1c429d876cf14af3d1d54f1818199361d6b895ee03306cd68475d4ca592464
 
 build:
   number: 0
